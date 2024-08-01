@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibraryArea", "Geom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibraryArea.test", "GeometryLibraryArea.test\GeometryLibraryArea.test.csproj", "{F71F75F7-58BD-47CB-AD7D-44CEA0A7DD22}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{0F08E0CD-FC62-4DA2-BC27-55E2A593EA00}"
+	ProjectSection(SolutionItems) = preProject
+		Ответ_на_задание_2.txt = Ответ_на_задание_2.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

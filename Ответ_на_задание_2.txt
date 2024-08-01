@@ -1,0 +1,10 @@
+Предположим что у нас есть 2 таблицы: Products, Categories. И поля соединяющие эти 2 таблицы: ProductID, CategoryID.
+
+Тогда для того что бы вернуть пары "Имя продукта – Имя категории" нужно написать такой запрос:
+
+SELECT ProductName, CategoryName
+FROM Products
+LEFT JOIN 
+    ProductCategories ON Products.ProductID = ProductCategories.ProductID
+LEFT JOIN 
+    Categories ON ProductCategories.CategoryID = Categories.CategoryID
